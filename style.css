@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html body {
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section .input-wrapper {
+  width: auto;
+  padding: 50px;
+  box-shadow: 0 4px 8px #ababab;
+}
+
+section .input-wrapper .tiles {
+  margin-bottom: 20px;
+}
+section .input-wrapper h1 {
+  font-size: 40px;
+}
+
+section .input-wrapper h3 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+section .input-wrapper input {
+  width: 300px;
+  height: 30px;
+  border: 1px solid #ababab;
+  border-radius: 4px;
+}
+
+section .input-wrapper button {
+  width: auto;
+  height: 30px;
+  padding: 0 10px;
+  cursor: pointer;
+  outline: none;
+  background: #0025ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+section .input-wrapper button:hover {
+  background: #ff6600;
+  transition: all 0.75s ease-in-out;
+}
