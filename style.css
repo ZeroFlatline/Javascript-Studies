@@ -20,6 +20,7 @@ section {
 section .input-wrapper {
   width: auto;
   padding: 50px;
+  margin: 50px;
   box-shadow: 0 4px 8px #ababab;
 }
 
@@ -57,4 +58,54 @@ section .input-wrapper button {
 section .input-wrapper button:hover {
   background: #ff6600;
   transition: all 0.75s ease-in-out;
+}
+
+section .task-list {
+  width: auto;
+  padding: 50px;
+  margin: 50px;
+  box-shadow: 0 4px 8px #ababab;
+}
+section .task-list h3 {
+  padding-bottom: 20px;
+  text-align: center;
+  color: #0025ff;
+}
+
+section .task-list .toDo-list {
+  width: 300px;
+  padding: 10px;
+}
+
+section .task-list .toDo {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(238, 238, 238);
+}
+
+section .task-list .toDo li {
+  flex: 1;
+}
+
+.trash-btn {
+  background-color: #ff9900;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+}
+.completed-btn {
+  background-color: greenyellow;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.to-do-item {
+  padding: 7px;
+}
+.fa-trash,
+.fa-check {
+  pointer-events: none;
 }
